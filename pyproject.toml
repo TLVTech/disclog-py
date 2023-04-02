@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools", "wheel", "requests"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "disclog"
+version = "0.0.7"
+authors = [
+    { name="Yoel", email="yoelz@tlvtech.io" },
+]
+description = "A logging package that sends logs to Discord webhooks."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+]
